@@ -1,0 +1,53 @@
+{
+  "checkpoint": "C:\\workplace\\ECE509_WaNet\\checkpoints_official\\checkpoints\\cifar10_all2one_morph.pth.tar",
+  "dataset": "cifar10",
+  "n_samples": 5000,
+  "s": 0.5,
+  "attack_mode": "all2one",
+  "results": {
+    "identity": {
+      "clean": 93.92,
+      "attack": 99.48,
+      "noise": 91.3,
+      "n_samples": 5000
+    },
+    "resize_0.75": {
+      "clean": 76.78,
+      "attack": 72.52,
+      "noise": 79.04,
+      "n_samples": 5000
+    },
+    "jpeg_50": {
+      "clean": 81.32,
+      "attack": 14.98,
+      "noise": 73.98,
+      "n_samples": 5000
+    },
+    "crop": {
+      "clean": 92.79333333333334,
+      "attack": 98.31333333333333,
+      "noise": 90.38666666666666,
+      "n_samples": 5000
+    },
+    "crop_runs": [
+      {
+        "clean": 93.24,
+        "attack": 98.16,
+        "noise": 90.5,
+        "n_samples": 5000
+      },
+      {
+        "clean": 92.56,
+        "attack": 98.38,
+        "noise": 90.64,
+        "n_samples": 5000
+      },
+      {
+        "clean": 92.58,
+        "attack": 98.4,
+        "noise": 90.02,
+        "n_samples": 5000
+      }
+    ]
+  }
+}

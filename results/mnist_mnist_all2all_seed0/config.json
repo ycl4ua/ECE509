@@ -1,0 +1,43 @@
+{
+  "dataset": "mnist",
+  "model": "mnist",
+  "attack_mode": "all2all",
+  "target_label": 0,
+  "epochs": 100,
+  "batch_size": 128,
+  "lr": 0.01,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "milestones": [
+    100,
+    200,
+    300,
+    400
+  ],
+  "gamma": 0.1,
+  "rho_a": 0.1,
+  "rho_n": 0.2,
+  "s": 0.5,
+  "k": 4,
+  "grid_rescale": 1.0,
+  "noise_type": "uniform",
+  "poison_mode": "online",
+  "data_root": "C:\\workplace\\ECE509_WaNet\\data",
+  "out_dir": "C:\\workplace\\ECE509_WaNet\\results",
+  "tag": "",
+  "seed": 0,
+  "num_workers": 0,
+  "device": "cuda",
+  "eval_every": 1,
+  "random_crop": 5,
+  "random_rotation": 10,
+  "model_name": "mnist",
+  "gpu": {
+    "cuda": true,
+    "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "total_memory_gb": 8.0,
+    "capability": "8.9",
+    "torch": "2.2.2+cu121",
+    "cuda_version": "12.1"
+  }
+}

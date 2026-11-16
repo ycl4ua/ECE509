@@ -1,0 +1,36 @@
+{
+  "checkpoint": "C:\\workplace\\ECE509_WaNet\\results\\cifar10_preact18_all2one_seed0\\checkpoint.pth.tar",
+  "dataset": "cifar10",
+  "model": "preact18",
+  "n_samples": 1000,
+  "epochs_per_label": 20,
+  "runs": [
+    {
+      "norms": [
+        29.465517044067383,
+        47.17535400390625,
+        54.99163818359375,
+        47.18879699707031,
+        53.356285095214844,
+        70.15946960449219,
+        57.696128845214844,
+        81.18449401855469,
+        61.86921691894531,
+        54.113311767578125
+      ],
+      "anomaly_index": 2.400848388671875,
+      "median": 54.113311767578125,
+      "mad": 10.266284942626953
+    }
+  ],
+  "anomaly_index_mean": 2.400848388671875,
+  "anomaly_index_std": 0.0,
+  "gpu": {
+    "cuda": true,
+    "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "total_memory_gb": 8.0,
+    "capability": "8.9",
+    "torch": "2.2.2+cu121",
+    "cuda_version": "12.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "clean_acc": 93.78,
+  "attack_acc": 96.16,
+  "noise_acc": 90.68,
+  "num_samples": 10000,
+  "checkpoint": "C:\\workplace\\ECE509_WaNet\\results\\cifar10_resnet18_all2one_seed0_v1_precomputed\\checkpoint.pth.tar",
+  "dataset": "cifar10",
+  "model": "resnet18",
+  "gpu": {
+    "cuda": true,
+    "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "total_memory_gb": 8.0,
+    "capability": "8.9",
+    "torch": "2.2.2+cu121",
+    "cuda_version": "12.1"
+  }
+}

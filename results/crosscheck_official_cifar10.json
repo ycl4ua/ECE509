@@ -1,0 +1,18 @@
+{
+  "checkpoint": "C:\\workplace\\ECE509_WaNet\\checkpoints_official\\checkpoints\\cifar10_all2one_morph.pth.tar",
+  "dataset": "cifar10",
+  "batch_size": 256,
+  "s": 0.5,
+  "rho_a": 0.1,
+  "rho_n": 0.2,
+  "num_bd": 25,
+  "num_cross": 50,
+  "identity_grid_max_abs_diff": 2.9802322387695312e-08,
+  "trigger_max_abs_diff": 0.0,
+  "trigger_mean_abs_diff": 0.0,
+  "poison_bd_max_abs_diff": 0.0,
+  "poison_clean_max_abs_diff": 0.0,
+  "poison_label_mismatches": 0,
+  "noise_max_abs_diff": 0.0,
+  "noise_mean_abs_diff": 0.0
+}

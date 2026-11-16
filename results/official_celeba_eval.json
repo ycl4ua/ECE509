@@ -1,0 +1,10 @@
+{
+  "checkpoint": "C:\\workplace\\ECE509_WaNet\\checkpoints_official\\checkpoints\\celeba_all2one_morph.pth.tar",
+  "parquet_dir": "C:\\workplace\\ECE509_WaNet\\data\\celeba_hf",
+  "n_samples": 19962,
+  "clean_acc": 79.00510970844604,
+  "attack_acc": 99.04318204588719,
+  "noise_acc": 77.60244464482517,
+  "s": 0.5,
+  "attack_mode": "all2one"
+}

@@ -1,0 +1,77 @@
+{
+  "checkpoint": "C:\\workplace\\ECE509_WaNet\\checkpoints_official\\checkpoints\\cifar10_all2one_morph.pth.tar",
+  "dataset": "cifar10",
+  "model": "preact18",
+  "layer": "layer4",
+  "total_channels": 512,
+  "results": [
+    {
+      "pruned_filters": 0,
+      "kept_filters": 512,
+      "clean_acc": 94.14,
+      "attack_acc": 99.55
+    },
+    {
+      "pruned_filters": 56,
+      "kept_filters": 456,
+      "clean_acc": 94.01,
+      "attack_acc": 98.67
+    },
+    {
+      "pruned_filters": 112,
+      "kept_filters": 400,
+      "clean_acc": 93.99,
+      "attack_acc": 98.35
+    },
+    {
+      "pruned_filters": 168,
+      "kept_filters": 344,
+      "clean_acc": 93.97,
+      "attack_acc": 98.64
+    },
+    {
+      "pruned_filters": 224,
+      "kept_filters": 288,
+      "clean_acc": 94.04,
+      "attack_acc": 98.99
+    },
+    {
+      "pruned_filters": 280,
+      "kept_filters": 232,
+      "clean_acc": 93.91,
+      "attack_acc": 99.46
+    },
+    {
+      "pruned_filters": 336,
+      "kept_filters": 176,
+      "clean_acc": 93.71,
+      "attack_acc": 99.77
+    },
+    {
+      "pruned_filters": 392,
+      "kept_filters": 120,
+      "clean_acc": 92.31,
+      "attack_acc": 99.92
+    },
+    {
+      "pruned_filters": 448,
+      "kept_filters": 64,
+      "clean_acc": 83.14,
+      "attack_acc": 99.96
+    },
+    {
+      "pruned_filters": 504,
+      "kept_filters": 8,
+      "clean_acc": 55.61,
+      "attack_acc": 99.84
+    }
+  ],
+  "gpu": {
+    "cuda": true,
+    "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "total_memory_gb": 8.0,
+    "capability": "8.9",
+    "torch": "2.2.2+cu121",
+    "cuda_version": "12.1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "checkpoint": "C:\\workplace\\ECE509_WaNet\\checkpoints_official\\checkpoints\\mnist_all2one_morph.pth.tar",
+  "dataset": "mnist",
+  "model": "mnist",
+  "n_samples": 500,
+  "epochs_per_label": 5,
+  "runs": [
+    {
+      "norms": [
+        453.92071533203125,
+        678.6114501953125,
+        669.8617553710938,
+        673.2117919921875,
+        661.4249267578125,
+        670.058349609375,
+        677.9010009765625,
+        665.5751953125,
+        673.2755126953125,
+        673.9523315429688
+      ],
+      "anomaly_index": 37.437984466552734,
+      "median": 670.058349609375,
+      "mad": 5.773217678070068
+    }
+  ],
+  "anomaly_index_mean": 37.437984466552734,
+  "anomaly_index_std": 0.0,
+  "gpu": {
+    "cuda": true,
+    "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "total_memory_gb": 8.0,
+    "capability": "8.9",
+    "torch": "2.2.2+cu121",
+    "cuda_version": "12.1"
+  }
+}

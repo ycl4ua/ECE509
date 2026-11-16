@@ -1,0 +1,22 @@
+# Downloaded datasets and released checkpoints (not redistributed)
+data/
+checkpoints_official/
+checkpoints.zip
+
+# Trained checkpoints and run logs
+results/**/checkpoint.pth.tar
+results/**/*.log
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Transient notes
+results/PAUSED_FOR_REBOOT.txt

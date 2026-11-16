@@ -1,0 +1,44 @@
+﻿[2026-11-10 20:01:17] === experiment queue started ===
+[2026-11-10 20:01:17] Waiting for CIFAR-10 seed 2 to finish...
+[2026-11-10 21:38:49] seed 2 finished: clean=94.54 attack=99.85 noise=92.23 best_epoch=177
+[2026-11-10 21:38:49] START gtsrb_preact18_all2one_seed1 (200 epochs, seed 1, batch 128)
+[2026-11-10 21:53:39] FAIL gtsrb_preact18_all2one_seed1 (exit -1); see C:\workplace\ECE509_WaNet\results\gtsrb_preact18_all2one_seed1\train.err.log
+[2026-11-10 21:53:39] START gtsrb_preact18_all2one_seed2 (200 epochs, seed 2, batch 128)
+[2026-11-10 21:53:39] PAUSED by user for reboot; gtsrb seed1 interrupted (no results.json); queue driver is not running
+[2026-11-10 21:54:45] FAIL gtsrb_preact18_all2one_seed2 (exit 1); see C:\workplace\ECE509_WaNet\results\gtsrb_preact18_all2one_seed2\train.err.log
+[2026-11-10 21:54:45] START cifar10_preact18_all2all_seed0 (200 epochs, seed 0, batch 128)
+[2026-11-10 21:56:00] PAUSED by user for reboot; queue driver and training stopped
+[2026-11-10 22:09:24] === experiment queue started ===
+[2026-11-10 22:09:24] seed 2 finished: clean=94.54 attack=99.85 noise=92.23 best_epoch=177
+[2026-11-10 22:09:24] START gtsrb_preact18_all2one_seed1 (200 epochs, seed 1, batch 128)
+[2026-11-11 00:13:01] DONE gtsrb_preact18_all2one_seed1: clean=98.71733966745843 attack=99.73871733966746 noise=98.32145684877277 best_epoch=200
+[2026-11-11 00:13:20] START gtsrb_preact18_all2one_seed2 (200 epochs, seed 2, batch 128)
+[2026-11-11 02:19:24] DONE gtsrb_preact18_all2one_seed2: clean=98.58273950910531 attack=99.74663499604117 noise=98.35312747426762 best_epoch=200
+[2026-11-11 02:19:48] START cifar10_preact18_all2all_seed0 (200 epochs, seed 0, batch 128)
+[2026-11-11 04:41:59] DONE cifar10_preact18_all2all_seed0: clean=94.39 attack=93.4 noise=92.12 best_epoch=186
+[2026-11-11 04:42:12] START mnist_mnist_all2all_seed0 (100 epochs, seed 0, batch 128)
+[2026-11-11 05:17:46] DONE mnist_mnist_all2all_seed0: clean=99.3 attack=98.73 noise=98.31 best_epoch=97
+[2026-11-11 05:17:54] START cifar10_preact18_all2one_seed0_v1_precomputed (200 epochs, seed 0, batch 128)
+[2026-11-11 07:47:09] DONE cifar10_preact18_all2one_seed0_v1_precomputed: clean=93.96 attack=97.01 noise=90.98 best_epoch=191
+[2026-11-11 07:47:29] START cifar10_resnet18_all2one_seed0_v1_precomputed (200 epochs, seed 0, batch 128)
+[2026-11-11 10:13:56] DONE cifar10_resnet18_all2one_seed0_v1_precomputed: clean=93.78 attack=96.16 noise=91.01 best_epoch=156
+[2026-11-11 10:14:18] START cifar10_mobilenetv2_all2one_seed0_v1_precomputed (200 epochs, seed 0, batch 128)
+[2026-11-11 11:47:57] DONE cifar10_mobilenetv2_all2one_seed0_v1_precomputed: clean=85.21 attack=62.39 noise=82.85 best_epoch=115
+[2026-11-11 11:48:08] START cifar10_vgg16_all2one_seed0_v1_precomputed (200 epochs, seed 0, batch 128)
+[2026-11-11 13:38:31] DONE cifar10_vgg16_all2one_seed0_v1_precomputed: clean=92.29 attack=90.02 noise=89.36 best_epoch=197
+[2026-11-11 13:38:44] START cifar10_preact18_all2one_seed0_v2_rho0.05 (200 epochs, seed 0, batch 128)
+[2026-11-11 15:58:49] DONE cifar10_preact18_all2one_seed0_v2_rho0.05: clean=94.53 attack=98.56 noise=92.38 best_epoch=177
+[2026-11-11 15:59:09] START cifar10_preact18_all2one_seed0_v2_rho0.02 (200 epochs, seed 0, batch 128)
+[2026-11-11 18:18:07] DONE cifar10_preact18_all2one_seed0_v2_rho0.02: clean=94.56 attack=96.23 noise=92.35 best_epoch=198
+[2026-11-11 18:18:27] START cifar10_preact18_all2one_seed0_v2_rho0.01 (200 epochs, seed 0, batch 128)
+[2026-11-11 20:38:48] DONE cifar10_preact18_all2one_seed0_v2_rho0.01: clean=94.34 attack=84.57 noise=92.38 best_epoch=172
+[2026-11-11 20:39:02] START cifar10_preact18_all2one_seed0_v2_s0.35 (200 epochs, seed 0, batch 128)
+[2026-11-11 23:10:36] DONE cifar10_preact18_all2one_seed0_v2_s0.35: clean=94.04 attack=97.53 noise=92.72 best_epoch=177
+[2026-11-11 23:11:00] START cifar10_preact18_all2one_seed0_v2_s0.25 (200 epochs, seed 0, batch 128)
+[2026-11-12 01:44:51] DONE cifar10_preact18_all2one_seed0_v2_s0.25: clean=92.77 attack=85.45 noise=92.12 best_epoch=146
+[2026-11-12 01:45:07] START fashionmnist_mnist_all2one_seed0 (100 epochs, seed 0, batch 128)
+[2026-11-12 02:19:24] DONE fashionmnist_mnist_all2one_seed0: clean=91.8 attack=77.32 noise=90.44 best_epoch=93
+[2026-11-12 02:19:33] START cifar10_preact18_all2one_seed0_clean (200 epochs, seed 0, batch 128)
+[2026-11-12 04:48:23] DONE cifar10_preact18_all2one_seed0_clean: clean=94.56 attack=10.15 noise=81.33 best_epoch=199
+[2026-11-12 04:48:27] === experiment queue complete ===
+[2026-11-12 04:48:27] Summary: 15 runs have results.json, 0 missing

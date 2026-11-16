@@ -1,0 +1,17 @@
+{
+  "clean_acc": 94.39,
+  "attack_acc": 93.4,
+  "noise_acc": 92.3,
+  "num_samples": 10000,
+  "checkpoint": "C:\\workplace\\ECE509_WaNet\\results\\cifar10_preact18_all2all_seed0\\checkpoint.pth.tar",
+  "dataset": "cifar10",
+  "model": "preact18",
+  "gpu": {
+    "cuda": true,
+    "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "total_memory_gb": 8.0,
+    "capability": "8.9",
+    "torch": "2.2.2+cu121",
+    "cuda_version": "12.1"
+  }
+}

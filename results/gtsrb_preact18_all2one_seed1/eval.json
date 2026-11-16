@@ -1,0 +1,17 @@
+{
+  "clean_acc": 98.71733966745843,
+  "attack_acc": 99.73871733966746,
+  "noise_acc": 98.25019794140934,
+  "num_samples": 12630,
+  "checkpoint": "C:\\workplace\\ECE509_WaNet\\results\\gtsrb_preact18_all2one_seed1\\checkpoint.pth.tar",
+  "dataset": "gtsrb",
+  "model": "preact18",
+  "gpu": {
+    "cuda": true,
+    "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "total_memory_gb": 8.0,
+    "capability": "8.9",
+    "torch": "2.2.2+cu121",
+    "cuda_version": "12.1"
+  }
+}

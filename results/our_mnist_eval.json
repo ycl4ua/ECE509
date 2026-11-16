@@ -1,0 +1,17 @@
+{
+  "clean_acc": 99.26,
+  "attack_acc": 99.07,
+  "noise_acc": 98.82,
+  "num_samples": 10000,
+  "checkpoint": "C:\\workplace\\ECE509_WaNet\\results\\mnist_mnist_all2one_seed0\\checkpoint.pth.tar",
+  "dataset": "mnist",
+  "model": "mnist",
+  "gpu": {
+    "cuda": true,
+    "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "total_memory_gb": 8.0,
+    "capability": "8.9",
+    "torch": "2.2.2+cu121",
+    "cuda_version": "12.1"
+  }
+}
