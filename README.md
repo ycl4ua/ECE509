@@ -54,8 +54,8 @@ Track A (Reproduction) of **WaNet — Imperceptible Warping-based Backdoor Attac
 - [x] Pixel-wise cross-check against the official warping/poisoning code:
       max abs diff 0.0 on triggered and poisoned images; 0 / 256 label
       mismatches.
-- [x] Final report source (`report/report.tex`) with all results.
-- [ ] Compile the report PDF; demo and presentation.
+- [x] Final report (`report/report.pdf`, compiled from `report/report.tex`).
+- [ ] Demo and presentation.
 
 ## Repository layout
 

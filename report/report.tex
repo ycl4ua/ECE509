@@ -206,13 +206,13 @@ MNIST's ASR is 2.8 pp higher, likely because of the reduced 100-epoch budget
 and the random noise mode. CelebA all-to-all has no released checkpoint and
 was not trained.
 
-\begin{table}[t]
+\begin{table*}[t]
 \centering
 \caption{Claims and reproduction status. R = reproduced, P = partial, N = not
 reproduced.}
 \label{tab:claims}
 \footnotesize
-\begin{tabular}{clcc}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}clp{4.4cm}p{7.0cm}@{}}
 \toprule
 \# & Claim & Paper & Ours / status \\
 \midrule
@@ -228,8 +228,8 @@ C9 & Passes STRIP & entropy overlap & MNIST/CIFAR-10 overlap (R) \\
 C10 & Human study & 28.0\% vs $\le$7.7\% & not reproduced (N) \\
 C11 & Physical attack & 98\%/96\% & not reproduced (N) \\
 \bottomrule
-\end{tabular}
-\end{table}
+\end{tabular*}
+\end{table*}
 
 \begin{figure}[t]
 \centering
@@ -257,7 +257,7 @@ converge to the paper's values.}
 \end{figure}
 
 \subsection{Defense reproduction}
-\textbf{Neural Cleanse.} With a 20-epoch/1000-sample scan, the official
+\textbf{Neural Cleanse~\cite{wang2019neuralcleanse}.} With a 20-epoch/1000-sample scan, the official
 checkpoints pass: Anomaly Index 1.99 on MNIST and 0.89 on CIFAR-10, both below
 the threshold 2. A 5-epoch scan on MNIST gives 37.4 (detected), so the
 conclusion is budget-sensitive. Our reduced-epoch CIFAR-10 model is marginal
@@ -265,12 +265,12 @@ conclusion is budget-sensitive. Our reduced-epoch CIFAR-10 model is marginal
 that noise mode is necessary to evade Neural Cleanse and shows that the margin
 depends on the training budget.
 
-\textbf{STRIP.} On MNIST, clean entropy is $0.338\pm0.119$ and backdoor
+\textbf{STRIP~\cite{gao2019strip}.} On MNIST, clean entropy is $0.338\pm0.119$ and backdoor
 entropy is $0.358\pm0.125$; on CIFAR-10, $0.466\pm0.176$ vs.\
 $0.517\pm0.177$. The distributions overlap, consistent with the paper's claim
 that STRIP fails against WaNet.
 
-\textbf{Fine-Pruning.} On MNIST, pruning 63/64 filters leaves attack accuracy
+\textbf{Fine-Pruning~\cite{liu2018finepruning}.} On MNIST, pruning 63/64 filters leaves attack accuracy
 at 99.98\% while clean accuracy falls to 9.89\%. On CIFAR-10, pruning 504/512
 filters leaves attack accuracy at 99.84\% while clean accuracy falls to
 55.61\%. Pruning cannot remove the backdoor without destroying utility.
